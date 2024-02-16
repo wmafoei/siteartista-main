@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Karla:wght@200&display=swap');
+
+body {
+    background-image: url('/styles/img/contatowallpaper.png');
+    background-size: cover; /* ajusta o tamanho da imagem */
+    background-position: center; /* posiciona a imagem no centro */
+    margin: 0; /* remove a margem padrão do corpo */
+    height: 100vh; /* ocupa 100% da altura da viewport */
+    font-family: 'Alice', serif;
+    font-family: 'Karla', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.whats{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+}
+
+.font-white{
+    color: white;
+}
+
+.spotify, .deezer {
+    display: flex;
+    position: fixed;
+    background: #fff;
+    bottom: 2%;
+    z-index: 9999;
+    border-radius: 20px;
+    height: 70px;
+    padding: 7px;
+    left: 20px;
+    box-shadow: 1px 1px 6px 0 #4c4c4c;
+    animation: pulse 2s infinite;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(247, 239, 122, 0.5);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(74, 234, 245, 0.705);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgb(4, 232, 248);
+    }
+}
+
+@keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(247, 239, 122, 0.5);
+      box-shadow: 0 0 0 0 rgba(247, 239, 122, 0.5);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(124, 242, 250, 0);
+        box-shadow: 0 0 0 10px rgba(124, 242, 250, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgb(4, 232, 248,0);
+        box-shadow: 0 0 0 0 rgb(4, 232, 248,0);
+    }
+}
+
+
+.spotify {bottom: 15%;}
+
+.spotify-info,.deezer-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.spotify-link, .deezer-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.img-spotify-ws,.img-deezer-ws {
+    height: 56px;
+    width: 56px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.img-spotify,.img-deezer {                
+    width: 100px;
+    height: 27px;
+    object-fit: contain;
+    margin-top: 6px;
+    border: 1px solid #c0c0c0;
+    border-radius: 20px;
+    padding: 2px 4px 5px;
+}
+.spotify-title,.deezer-title {
+    font-size: 15px;
+    color: #1c1c1c;
+    margin: 0;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+}
+.playlist-spotify-iframe{
+    width:500px;
+}

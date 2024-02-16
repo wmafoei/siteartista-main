@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Karla:wght@200&display=swap');
+
+
+body {
+    background: url('/styles/img/fotowallpaper.png') no-repeat center center fixed;
+    background-size: cover; /* ajusta o tamanho da imagem */
+    margin: 0; /* remove a margem padrão do corpo */
+    height: 100vh; /* ocupa 100% da altura da viewport */
+    font-family: 'Alice', serif;
+    font-family: 'Karla', sans-serif;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.carousel {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.carousel-inner{
+    border: 5px solid white;
+}
+
+.text-bold{
+    color: white !important;
+}
+
+.whats{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+}

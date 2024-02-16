@@ -1,0 +1,47 @@
+/* Adicione estilos para a cor da fonte quando o link estiver ativo */
+.navbar-nav .nav-link.active {
+    color: #ffffff !important;
+}
+
+header > ul > li > a {
+    color: white !important;
+}
+
+header > ul > li > a:hover {
+    color: #c9c9c9 !important;
+}
+
+.video {
+    position: absolute;
+    z-index: -3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow-y: hidden;
+}
+
+.color-icone{
+    color: white !important;
+}
+
+.footer-img{
+    margin: 0 auto;
+}
+
+.text-bold{
+    font-weight: bolder;
+    color: black;
+}
+
+.texto{
+    color: black !important;
+}
+
+.whats{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+}
